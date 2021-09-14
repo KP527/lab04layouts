@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lab04layouts</string>
+    <string name="greeting">cat!!!!!</string>
+    <string name="cat_english">meow</string>
+    <string name="cat_french">miaou</string>
+    <string name="cat_german">miau</string>
+    <string name="goodbye">goodbye cat!!!</string>
+</resources>

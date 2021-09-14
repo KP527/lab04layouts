@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/large_length"
+        android:layout_height="@dimen/large_length"
+        android:layout_marginLeft="@dimen/medium_length"
+        android:layout_marginTop="32dp"
+        android:background="@color/pink"
+        android:text="@string/greeting"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/large_length"
+        android:layout_height="@dimen/large_length"
+        android:layout_marginTop="308dp"
+        android:layout_marginRight="188dp"
+        android:background="@color/pink"
+        android:text="@string/cat_english"
+        android:textAllCaps="false"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/large_length"
+        android:layout_height="@dimen/large_length"
+        android:layout_marginLeft="128dp"
+        android:layout_marginBottom="216dp"
+        android:background="@color/orange"
+        android:text="@string/cat_german"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/large_length"
+        android:layout_height="@dimen/large_length"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="168dp"
+        android:background="@color/yellow"
+        android:text="@string/cat_french"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
